@@ -6,9 +6,9 @@ require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-   origin : "https://news-nexus-application.netlify.app/",
-   methods: "GET, POST, PUT, PATCH, DELETE",
-   credentials: true, 
+  origin: "https://news-nexus-application.netlify.app", 
+  methods: "GET, POST, PUT, PATCH, DELETE",
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
